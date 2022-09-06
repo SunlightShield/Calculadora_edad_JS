@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(143, 140, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box{
+    background-color: black;
+    height: 50px;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0 0 3px 0.6pxrgb(39, 12, 12);
+}
+.date{
+    border: none;
+    font-size: 0.7rem;
+    width: 90px;
+    height: 20px;
+    border-radius: 3px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.calculate{
+    font-size: 0.9rem;
+    width: 80px;
+    height: 38px;
+    border: none;
+    border-radius: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.otras-cajas{
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 1px 0.1 rgb(39, 12, 12);
+}
+.numero{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1 rem;
+}
+.label{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+    color: rgba(239, 238, 238, 0.941);
+}
